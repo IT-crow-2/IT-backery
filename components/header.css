@@ -1,24 +1,59 @@
 header{
     height: 15vh;
     width: 100%;
-    background-color:rgb(8, 8, 8);
+    background-color:#232222;
     display: flex;
+    flex-direction: row;
     align-items: center;
-}
-
-.LogoITBakery{
-    height: 50px;
-    margin-top: 30px ;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    justify-content: space-around;
+    
     
 }
 
-.text{
-font-size: large;
-font-family: Arial, Helvetica, sans-serif;
-color: rgb(255, 255, 255);
-align-content: center;
-display: flex;
+.LogoITBakery{
+    height: 70px;
+    width: auto;
+    
+    
+   
+  
+    
 }
+
+.text{ 
+font-size: 20px;
+color: rgb(255, 255, 255);
+font-family: 'Ruda', sans-serif;
+text-align: center;
+width: 80%;
+
+
+}
+
+
+.SmallText{
+font-size: 10px;
+color: rgb(255, 255, 255);
+font-family: 'Ruda', sans-serif;
+margin-top: -15%;
+
+
+
+}
+
+.SectionBox{
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+    justify-content: center;
+
+
+
+
+}
+
 
