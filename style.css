@@ -3,7 +3,7 @@
 @import '/components/main.css';
 @import '/components/footer.css';
 @import '/assets/FontStyle/Sahitya/Sahitya-Regular.ttf';
-@import '/assets/FontStyle/Roboto/Roboto-Regular.ttf'
+@import '/assets/FontStyle/Roboto/Roboto-Regular.ttf';
 body {
     max-width: 450px;
     height: auto; 
