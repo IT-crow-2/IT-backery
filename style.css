@@ -1,9 +1,15 @@
-@import url(/components/header.css);
-@import url(/components/main.css);
-@import url(/components/footer.css);
+@import "./components/header.css";
+@import "./components/main.css";
+@import "./components/footer.css";
 body {
     max-width: 450px;
     height: auto; 
     display: flex;
     flex-direction: column;
+}
+@media(min-width:451px){
+   body{
+    max-width: 1900px;
+    
+   }
 }
