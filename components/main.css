@@ -5,10 +5,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    background-image: url(/assets/imgs-main/Group\ 156.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
 
 }
 
@@ -27,13 +24,13 @@ main{
 
 .ImgButton{
     align-self: center;
-    margin-left: 15%;
+    margin-left: 20%;
     
 }
 
 .TextButton{
     align-self: center;
-    margin-left: 30%;
+    margin-left: 15%;
     font-family: "Roboto";
     font-size: large;
     color: white;
