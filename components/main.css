@@ -130,3 +130,20 @@ main{
     font-family: 'sahitya';
     margin-bottom: 10px;
 }
+
+/*css main de productCard*/
+
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;;
+    width: 330px;
+    height: 330px;
+    border: none;
+    background:#272525;
+    border-radius: 20px;
+    box-shadow:  -2px -2px 1px rgba(255, 255, 255, 0.21),
+                 5px 5px 2px rgba(0, 0, 0, 0.25);
+}
