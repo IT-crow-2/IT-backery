@@ -65,10 +65,14 @@ flex-direction: column;
 }
 
 .card-body{
-
+    background-color: blue;
 }
 
 .card-title{
+
+}
+
+.CardButton{
 
 }
 
