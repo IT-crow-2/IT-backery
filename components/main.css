@@ -6,22 +6,18 @@ main{
     height: 70vh;
     width: 100%;
     display: flex; 
-    background-color: black;
+    background:#232222 ;
+    
 }
 
-.cats-main{
-    flex-direction: column;
-    justify-content: center;  
-    background:#232222;
 
-}
+
 .sectionInitial{
 display :flex;
 flex-direction: column;
 
-
-
 }
+
 .CatButton{
     width: 340px;
     height: 50px;
