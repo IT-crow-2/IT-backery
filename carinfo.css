@@ -1,0 +1,52 @@
+@import'./components/reset.css';
+
+body{
+    background-color:#232222 ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+  
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card{
+    display: flex;
+    
+    margin-bottom: 10px;;
+    width: 332px;
+    height: 332px;
+    border: none;
+    background:#272525;
+    border-radius: 20px;
+    box-shadow:  inset 5px 5px 2px rgba(0, 0, 0, 0.25),
+                 inset -2px -2px 1px rgba(255, 255, 255, 0.21);
+}
+.imgCards{
+    width: 170px;
+    height:120px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    }
+
+    .card-title{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    
+    .card-text{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 10px
+    }
+
+    p{
+        color: white;
+    }
