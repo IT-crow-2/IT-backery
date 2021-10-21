@@ -1,3 +1,6 @@
+@import'./FontStyle/Sahitya';
+
+
 
 main{
     height: 70vh;
@@ -45,7 +48,7 @@ flex-direction: column;
 .TextButton{
     align-self: center;
     margin-left: 5%;
-    font-family: "Roboto";
+    font-family: 'Sahitya';
     font-size: large;
     color: white;
 }
