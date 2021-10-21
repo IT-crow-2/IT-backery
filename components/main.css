@@ -6,15 +6,15 @@ main{
     height: 70vh;
     width: 100%;
     display: flex; 
-    background:#232222 ;
-    
+    background:#232222 ; 
 }
 
 
 
 .sectionInitial{
-display :flex;
-flex-direction: column;
+
+    display :flex;
+    flex-direction: column;
 
 }
 
@@ -50,6 +50,17 @@ flex-direction: column;
 }
 
 /*css main de cards*/
+.boxCards{
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    background:#232222 ;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-content: flex-start;  
+    display:none;
+}
+
 .cards-main{
     flex-direction: row;
     flex-wrap: wrap;    
@@ -64,6 +75,8 @@ flex-direction: column;
 }
 
 .card-body{
+    border-radius: inherit;
+    height: 100%;
     background-color: blue;
 }
 
@@ -72,6 +85,6 @@ flex-direction: column;
 }
 
 .CardButton{
-
+    ;
 }
 
