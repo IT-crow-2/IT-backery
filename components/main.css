@@ -133,6 +133,10 @@ main{
 
 /*css main de productCard*/
 
+.boxProduct{
+    display:none;
+}
+
 .productCard{
     display: flex;
     flex-direction: column;

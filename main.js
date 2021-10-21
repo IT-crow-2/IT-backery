@@ -49,9 +49,6 @@ let boxcard = document.getElementById("boxcard")
 //le asigna a sectioninicial la sección con id sectionInitial
 let sectioninicial = document.getElementById("sectionInitial")
 
-//le asigna a sectioninicial la sección con id sectionInitial
-let boxproduct = document.getElementById("boxproduct")
-
 //recorre una lista que asignemos como parametro para aplicar
 //la función printcard para cada elemento de la lista
 function arrayread(array){
@@ -63,7 +60,7 @@ function arrayread(array){
 //imprime dentro de la seccion boxcard los elementos HTML 
 //para generar la card de cada producto 
 function printcard(element){
-    boxcard.innerHTML +=    `<section class="cards-main" id="${element.productID}" onclick="printProductCard(${element.productID})">
+    boxcard.innerHTML +=    `<section class="cards-main" id="${element.productID}" onclick="openboxproduct(${element.productID})">
                                 <div class="card">
                                     <img src="${element.img}" alt="" class="imgCards">
                                     <h5 class="card-title">${element.title}</h5>
@@ -84,7 +81,7 @@ function openboxmain(){
 
 //imprime dentro de la seccion boxproduct los elementos HTML 
 //para generar la card del producto seleccionado en boxcard 
-let boxproduct = document.getElementById("boxproduct")
+
 
 function printProductCard(idp){
     let boxproduct = document.getElementById("boxproduct")
@@ -108,9 +105,8 @@ function printProductCard(idp){
 
 
 ///abre card de descripción de producto
-function openboxproduct(){
-    
-    boxcard.classList.add("displaynone")
+function openboxproduct(idp){
+    boxcard.classList.remove("displayon")
     boxproduct.classList.add("displayon")
     printProductCard(idp)
     
