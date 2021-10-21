@@ -1,5 +1,12 @@
 @import'./FontStyle/Sahitya';
 
+.displaynone{
+    display:none !important;
+}
+
+.displayon{
+    display:inherit !important;
+}
 
 
 main{
@@ -15,7 +22,6 @@ main{
 
     display :flex;
     flex-direction: column;
-
 }
 
 .CatButton{
@@ -63,7 +69,8 @@ main{
 
 .cards-main{
     flex-direction: row;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
+        
 }
 
 .card{
@@ -84,7 +91,4 @@ main{
 
 }
 
-.CardButton{
-    ;
-}
 

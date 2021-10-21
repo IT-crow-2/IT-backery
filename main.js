@@ -31,7 +31,11 @@ let listaPanes = [
     }
 ]
 
-let boxcard = document.getElementById("boxCards")
+let boxcard = document.getElementById("boxcard")
+
+let sectioninicial = document.getElementById("sectionInitial")
+
+
 
 function arrayread(array){
     for (const i of array) {
@@ -52,4 +56,11 @@ function printcard(element){
                             </section>`
 }
 
-arrayread(listaPanes)
+function openboxmain(){
+    
+    sectioninicial.classList.add("displaynone")
+    boxcard.classList.add("displayon")
+    arrayread(listaPanes)
+    
+}
+
