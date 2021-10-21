@@ -44,15 +44,13 @@ function arrayread(array){
 }
 
 function printcard(element){
-    boxcard.innerHTML += `<section class="cards-main">
-                                    <div class="card">
-                                        <div class="card-body">
-                                        <img src="${element.img}" alt="">
-                                        <h5 class="card-title">${element.title}</h5>
-                                        <p class="card-text">${element.precio}</p>
-                                    </div>
-                                    <button class="CardButton">ADD</button>
+    boxcard.innerHTML +=    `<section class="cards-main">
+                                <div class="card">
+                                    <img src="${element.img}" alt="" class="imgCards">
+                                    <h5 class="card-title">${element.title}</h5>
+                                    <p class="card-text">${element.precio}</p>
                                 </div>
+                                <button class="CardButton">ADD</button>
                             </section>`
 }
 
