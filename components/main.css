@@ -6,7 +6,6 @@ main{
     flex-direction: column;
     justify-content: center;  
     background-color: black;
-
 }
 
 .CatButton{
@@ -19,9 +18,9 @@ main{
     display: flex;
     flex-direction: row;
     background-color: black;
-}
+}               
 
-
+            
 .ImgButton{
     align-self: center;
     margin-left: 20%;
