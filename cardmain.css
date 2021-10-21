@@ -7,9 +7,13 @@ main{
     display: flex;
     height: 70vh;
     width: 100%;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .cards-main{
     display:flex;
     flex-direction: column;
