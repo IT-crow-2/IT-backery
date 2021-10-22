@@ -86,19 +86,19 @@ function openboxmain(){
 function printProductCard(idp){
     let boxproduct = document.getElementById("boxproduct")
     boxproduct.innerHTML +=    `<section class="productCard">
-                                <div class="card">
-                                    <div>
-                                        <div>
-                                            <img src="${listaPanes[idp].img}" alt="" class="imgCards">
-                                        </div>
-                                        <div>
-                                            <h5 class="card-title">${listaPanes[idp].title}</h5>
-                                            <p class="card-price">${listaPanes[idp].precio}</p>
-                                        <div>
+                                <button class="CloseButton">X</button>
+                                <div class="pCardImgYPrecio">
+                                    <div class="pImgBox">
+                                        <img src="${listaPanes[idp].img}" alt="" class="imgCards">
                                     </div>
-                                    <div>
-                                        <p class="cardProductDescription">${listaPanes[idp].desc}</p>
+                                    <div class"pProdYPrice">
+                                        <h5 class="card-title">${listaPanes[idp].title}</h5>
+                                        <p class="card-title">${listaPanes[idp].precio}</p>
                                     </div>
+                                </div>
+                                <div>
+                                    <p class="cardProductDescription" >${listaPanes[idp].desc}</p>
+                                </div>
                                 <button class="CardButton">ADD</button>
                             </section>`
 }
