@@ -105,3 +105,16 @@ a{
     display: flex;
     ;
 }
+
+@media(min-width:451px){
+	body{
+		max-width:1900px !important;
+		}
+	main{
+		flex-direction:column;
+		}
+	.sectionInitial{
+		flex-direction:row;
+		justify-content: space-around;
+		}
+}
