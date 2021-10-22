@@ -16,6 +16,8 @@ main{
     background:#232222 ; 
     justify-content: center;
     align-items: center;
+    overflow-y: scroll;
+   
 }
 
 

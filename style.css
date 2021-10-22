@@ -9,4 +9,6 @@ body {
     height: auto; 
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
 }

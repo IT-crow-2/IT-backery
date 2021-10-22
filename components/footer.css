@@ -6,6 +6,7 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
 }
 .footerText {
    font-size: 15px;
