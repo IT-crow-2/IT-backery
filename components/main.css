@@ -76,11 +76,18 @@ main{
 }
 
 .card{
-    background-color: beige;
+    display: flex;
+    margin-bottom: 10px;
     width: 150px;
     height: 150px;
+    border: none;
+    background: #272525;
     border-radius: 20px;
-
+    box-shadow: 5px 5px 2px rgb(0 0 0 / 25%), -2px -2px 1px rgb(255 255 255 / 21%);
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center;
 }
 
 .card-body{
@@ -116,5 +123,6 @@ a{
 	.sectionInitial{
 		flex-direction:row;
 		justify-content: space-around;
+        width:100%;
 		}
 }
