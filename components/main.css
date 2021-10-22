@@ -1,5 +1,128 @@
+@import'./FontStyle/Sahitya';
+
+.displaynone{
+    display:none !important;
+}
+
+.displayon{
+    display:inherit !important;
+}
+
+
 main{
     height: 70vh;
     width: 100%;
-    background-color: rgb(127, 170, 170);
+    display: flex; 
+    background:#232222 ; 
+}
+
+
+
+.sectionInitial{
+
+    display :flex;
+    flex-direction: column;
+}
+
+.CatButton{
+    width: 340px;
+    height: 50px;
+    border-radius: 44px;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    background:#232222 ;
+    border:none;
+    box-shadow:  -1px -1px 2px rgba(253, 253, 253, 0.25),
+    2px 2px 2px rgba(0, 0, 0, 0.25);
+                 
+                
+      
+}               
+
+            
+.ImgButton{
+    align-self: center;
+   margin-right:35%
+    
+}
+
+.TextButton{
+    align-self: center;
+    margin-left: 5%;
+    font-family: 'Sahitya';
+    font-size: large;
+    color: white;
+}
+
+/*css main de cards*/
+.boxCards{
+    height: 70vh;
+    width: 100%;
+    display: flex; 
+    background:#232222 ;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    align-content: flex-start;  
+    display:none;
+}
+
+.cards-main{
+    flex-direction: row;
+    flex-wrap: wrap;
+        
+}
+
+.card{
+    display: flex;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background: #272525;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px rgb(0 0 0 / 25%), -2px -2px 1px rgb(255 255 255 / 21%);
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center;
+}
+
+.card-body{
+    border-radius: inherit;
+    height: 100%;
+    background-color: blue;
+}
+
+
+a{
+    z-index: 2;
+    width: 340px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Sahitya';
+    align-self: center;
+      font-family: 'Sahitya';
+    font-size: large;
+    color: white;
+    align-items: center;
+    display: flex;
+    ;
+}
+
+@media(min-width:451px){
+	body{
+		max-width:1900px !important;
+		}
+	main{
+		flex-direction:column;
+		}
+	.sectionInitial{
+		flex-direction:row;
+		justify-content: space-around;
+        width:100%;
+		}
 }

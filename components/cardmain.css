@@ -1,0 +1,101 @@
+@import'./components/reset.css';
+@import'./carinfo.css';
+
+
+body{
+    background-color:#232222 ;
+    max-width: 450px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+}
+.main-mobile2{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cards-main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;;
+    width: 150px;
+    height: 150px;
+    border: none;
+    background:#272525;
+    border-radius: 20px;
+    box-shadow:  5px 5px 2px rgba(0, 0, 0, 0.25),
+                 -2px -2px 1px rgba(255, 255, 255, 0.21);
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    align-content: center !important;
+    justify-content: center;
+}
+
+.imgCards{
+    width: 120px;
+    height:80px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    }
+    
+.card-title{
+    color: white;
+    font-family: 'Sahitya';
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.card-text{
+    color: white;
+    font-family: 'Sahitya';
+    font-size: 10px
+}
+
+.CardButton{
+    width:82px;
+    height:27px;
+    border-radius: 44px;
+    border:none;
+    background-color: #2F2D2D;
+    color: white;
+    box-shadow:  5px 5px 2px rgba(0, 0, 0, 0.25),
+    -2px -2px 2px rgba(253, 253, 253, 0.25);
+    font-family: 'sahitya';
+    margin-bottom: 10px;
+}
+
+.imgCardsC{
+    width: 90px;
+    height:100px;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.card-titleC{
+    color: white;
+    font-family: 'Sahitya';
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.card-textC{
+    color: white;
+    font-family: 'Sahitya';
+    font-size: 10px
+
+}
