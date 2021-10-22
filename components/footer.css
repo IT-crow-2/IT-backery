@@ -26,4 +26,30 @@ footer{
     height: 30px;
 }
 
+@media(min-width: 451px){
+    footer{
+        background-color: black;
+        height: 20vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  
+    }
+    .socialMedia{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
+    }
+    .footerText{
+        color: white;
+        margin-right: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .logoMedia{
+        width: 45px;
+        height: 45px;
+        margin: 10px;
+    }
 
+}

@@ -10,3 +10,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+@media(min-width:451px){
+   body{
+    max-width: 1900px;
+    
+   }
+}
