@@ -1,0 +1,83 @@
+@import'./components/reset.css';
+
+.main-mobile3{
+    display:none !important;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+  
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-mobile3{
+    display: flex;
+    width: 332px;
+    height: 332px;
+    border: none;
+    background:#272525;
+    border-radius: 20px;
+    box-shadow:  inset 5px 5px 2px rgba(0, 0, 0, 0.25),
+                 inset -2px -2px 1px rgba(255, 255, 255, 0.21);
+                 flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+}
+.card-body-mobile3{
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-end;
+
+}
+.imgCards-mobile3{
+    width: 170px;
+    height:120px;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    }
+
+    .card-titlem-mobile3{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 20px;
+    }
+    
+    .card-text-mobile3{
+        color: white;
+        font-family: 'Sahitya';
+        font-size: 15px
+    }
+
+    .card-description-mobile3{
+        color: white;
+        text-align: center;
+        width: 90%;
+    }
+
+
+.displaynone{
+    display:none !important;
+}
+
+.displayon{
+    display:inherit !important;
+}
+
+.displayon-mobile3{
+        
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+    

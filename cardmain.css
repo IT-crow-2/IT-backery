@@ -1,4 +1,6 @@
 @import'./components/reset.css';
+@import'./components/carinfo.css';
+
 
 body{
     background-color:#232222 ;
@@ -19,7 +21,6 @@ main{
     justify-content: center;
     align-items: center;
     border: none;
-
 }
 
 .card{

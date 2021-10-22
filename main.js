@@ -43,7 +43,7 @@ let listaPanes = [
 
 let boxcard = document.getElementById("main-mobile2")
 
-let sectioninicial = document.getElementById("sectionInitial")
+let product = document.getElementById("main-mobile3")
 
 
 
@@ -54,7 +54,7 @@ function arrayread(array){
 }
 
 function printcard(element){
-    boxcard.innerHTML +=    `<section class="cards-main">
+    boxcard.innerHTML +=    `<section class="cards-main" onclick="openProduct()">
                                     <button class="card">
                                         <div class="card-body">
                                             <img class="imgCards" src="${element.img}" alt="">
@@ -64,6 +64,12 @@ function printcard(element){
                                         <button class="CardButton">ADD</button>
                                     </button>
                             </section>`
+}
+
+function openProduct(){
+    boxcard.classList.add('displaynone');
+    product.classList.remove('main-mobile3');
+    product.classList.add('displayon-mobile3');
 }
 
 arrayread(listaPanes)
