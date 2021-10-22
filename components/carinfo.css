@@ -1,16 +1,4 @@
-@import'./components/reset.css';
 
-.main-mobile3{
-    display:none !important;
-    display: flex;
-    flex-direction: column;
-    height: 70vh;
-    width: 100%;
-  
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
 .card-mobile3{
     display: flex;
     width: 332px;
@@ -68,6 +56,18 @@
 
 .displayon{
     display:inherit !important;
+}
+
+.main-mobile3{
+    display: none !important;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+  
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .displayon-mobile3{

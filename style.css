@@ -1,9 +1,9 @@
-@import '/components/reset.css';
-@import '/components/header.css';
-@import '/components/main.css';
-@import '/components/footer.css';
-@import '/assets/FontStyle/Sahitya/Sahitya-Regular.ttf';
-@import '/assets/FontStyle/Roboto/Roboto-Regular.ttf';
+@import './components/reset.css';
+@import './components/header.css';
+@import './components/main.css';
+@import './components/footer.css';
+@import './assets/FontStyle/Sahitya/Sahitya-Regular.ttf';
+@import './assets/FontStyle/Roboto/Roboto-Regular.ttf';
 body {
     max-width: 450px;
     height: auto; 
